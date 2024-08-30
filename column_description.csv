@@ -1,0 +1,85 @@
+ColumnName,ColumnLongName,ColumnDescription,Category
+Id,Id,Identifier,Identifier
+MSSubClass,BuildingCategory,A numerical code categorizing the broad structural type of the item.,Area Features
+MSZoning,ZoningClassification,The designated usage category for the area where the item is located.,Area Features
+LotFrontage,StreetLineLength,The length in linear units of the item's frontage on a street.,Area Features
+LotArea,ParcelSize,The total area of the land associated with the item measured in square units.,Area Features
+Street,RoadAccessType,The type of road providing access to the item's location.,Area Features
+Alley,AlleyAccessType,The type of alley access available to the item's location (if any).,Area Features
+LotShape,ParcelShape,The general geometric shape of the land parcel.,Area Features
+LandContour,TerrainFlatness,A description of the land's levelness or slope.,Area Features
+Utilities,UtilityAvailability,The types of utility services available at the item's location.,Area Features
+LotConfig,ParcelSettings,Specific configurations or features of the land parcel.,Area Features
+LandSlope,TerrainSlope,The degree of inclination of the land.,Area Features
+Neighborhood,District,Geographic sub-regions or zones within a larger area.,Area Features
+Condition1,RoadProximity1,Indicates the item's proximity to a major road or transportation route.,Area Features
+Condition2,RoadProximity2,Indicates proximity to a second major road or route if applicable.,Area Features
+BldgType,DwellingType,The specific architectural classification of the structure.,Exterior Features
+HouseStyle,DwellingStyle,The architectural style of the structure.,Exterior Features
+OverallQual,MaterialQuality,A rating of the overall quality of materials used in the item's construction.,Exterior Features
+OverallCond,ConditionRating,A general assessment of the item's current state of repair and upkeep.,Exterior Features
+YearBuilt,ConstructionYear,The year in which the item was originally built.,Exterior Features
+YearRemodAdd,RenovationYear,The year of a significant remodel or addition to the item.,Exterior Features
+RoofStyle,RoofType,The style or design of the roof.,Exterior Features
+RoofMatl,RoofMaterial,The primary material used in the roof's construction.,Exterior Features
+Exterior1st,ExteriorCladding1,The dominant material covering the exterior of the item.,Exterior Features
+Exterior2nd,ExteriorCladding2,A secondary exterior covering material if present.,Exterior Features
+MasVnrType,MasonryType,The type of decorative masonry work used on the item's exterior.,Exterior Features
+MasVnrArea,MasonrySize,The area covered by masonry work measured in square units.,Exterior Features
+ExterQual,ExteriorQuality,The quality of the materials used for the exterior cladding.,Exterior Features
+ExterCond,ExteriorCondition,The current state of the exterior cladding.,Exterior Features
+Foundation,FoundationType,The type of foundation supporting the item's structure.,Exterior Features
+BsmtQual,BasementHeight,A classification of the basement's height relative to ground level.,Interior Features
+BsmtCond,BasementCondition,The general condition of the basement space.,Interior Features
+BsmtExposure,BasementAccess,Describes whether the basement has walkout access or is at garden level.,Interior Features
+BsmtFinType1,BasementFinish1,The quality of finish in the main finished area of the basement.,Interior Features
+BsmtFinSF1,BasementFinishedArea1,The size of the main finished area in the basement measured in square units.,Interior Features
+BsmtFinType2,BasementFinish2,The quality of finish in a second finished area of the basement (if applicable).,Interior Features
+BsmtFinSF2,BasementFinishedArea2,The size of a second finished area in the basement measured in square units.,Interior Features
+BsmtUnfSF,BasementUnfinishedArea,The size of the unfinished portion of the basement measured in square units.,Interior Features
+TotalBsmtSF,TotalBasementArea,The total area of the basement space including finished and unfinished areas measured in square units.,Interior Features
+Heating,HeatingType,The system used for heating the item.,Interior Features
+HeatingQC,HeatingQuality,The quality and condition of the heating system.,Interior Features
+CentralAir,AirConditioning,Indicates whether the item has central air conditioning.,Interior Features
+Electrical,ElectricalSystem,The type of electrical system installed.Interior Features
+1stFlrSF,GroundFloorArea,The area of the ground floor measured in square units.,Interior Features
+2ndFlrSF,UpperFloorArea,The area of the upper floor(s) measured in square units.,Interior Features
+LowQualFinSF,LowQualityArea,Area of the item finished to a lower standard measured in square units.,Interior Features
+GrLivArea,LivingArea,The total living space above ground level measured in square units.,Interior Features
+BsmtFullBath,BasementFullBathrooms,The number of full bathrooms in the basement.,Interior Features
+BsmtHalfBath,BasementHalfBathrooms,The number of half bathrooms in the basement.,Interior Features
+FullBath,FullBathrooms,The number of full bathrooms above ground level.,Interior Features
+HalfBath,HalfBathrooms,The number of half bathrooms above ground level.,Interior Features
+Bedroom,BedroomAbvGr,The number of bedrooms in the item.,Interior Features
+Kitchen,KitchenAbvGr,The number of kitchens in the item.,Interior Features
+KitchenQual,KitchenQuality,The quality of the kitchen's finishes and fixtures.,Interior Features
+TotRmsAbvGrd,TotalRooms,The total number of rooms above ground level excluding bathrooms.,Interior Features
+Functional,FunctionalityRating,A rating of the item's overall functionality and layout.,Interior Features
+Fireplaces,FireplaceCount,The number of fireplaces in the item.,Interior Features
+FireplaceQu,FireplaceQuality,The quality of the fireplace(s).,Interior Features
+GarageType,GarageLocation,The location of the garage relative to the item.,Additional Features
+GarageYrBlt,GarageConstructionYear,The year the garage was built.,Additional Features
+GarageFinish,GarageInterior,The interior finish of the garage.,Additional Features
+GarageCars,GarageCapacity,The number of vehicles the garage can accommodate.,Additional Features
+GarageArea,GarageSize,The area of the garage measured in square units.,Additional Features
+GarageQual,GarageQuality,The area of the garage measured in square units.,Additional Features
+GarageCond,GarageCondition,The current condition of the garage.,Additional Features
+PavedDrive,DrivewayType,Indicates whether the driveway is paved.,Additional Features
+WoodDeckSF,WoodDeckArea,The area of the wood deck measured in square units.,Additional Features
+OpenPorchSF,OpenPorchArea,The area of the open porch measured in square units.,Additional Features
+EnclosedPorch,EnclosedPorchArea,The area of the enclosed porch measured in square units.,Additional Features
+3SsnPorch,ThreeSeasonPorchArea,The area of the three-season porch measured in square units.,Additional Features
+ScreenPorch,ScreenPorchArea,The area of the screen porch measured in square units.,Additional Features
+PoolArea,PoolSize,The area of the pool measured in square units.,Additional Features
+PoolQC,PoolQuality,The quality of the pool.,Additional Features
+Fence,FenceQuality,The quality of the fence.,Additional Features
+MiscFeature,AdditionalFeature,A miscellaneous feature not covered in other categories.,Additional Features
+MiscVal,AdditionalFeatureValue,The monetary value of the additional feature.,Additional Features
+MoSold,SaleMonth,The month in which the item was sold.,Sale Information
+YrSold,SaleYear,The year in which the item was sold.,Sale Information
+SaleType,SaleType,The method or type of sale transaction.,Sale Information
+SaleCondition,SaleCondition,The condition of the sale.,Sale Information
+SalePrice,SalePrice,The primary metric we aim to predict or analyze for each item in the dataset.,Target
+
+
+
